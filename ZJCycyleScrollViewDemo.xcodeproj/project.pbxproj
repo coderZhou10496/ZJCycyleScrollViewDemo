@@ -15,6 +15,13 @@
 		38D41CAF1C9A63EA00DA163E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D41CAD1C9A63EA00DA163E /* LaunchScreen.storyboard */; };
 		38D41CBA1C9A63EA00DA163E /* ZJCycyleScrollViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D41CB91C9A63EA00DA163E /* ZJCycyleScrollViewDemoTests.m */; };
 		38D41CC51C9A63EA00DA163E /* ZJCycyleScrollViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D41CC41C9A63EA00DA163E /* ZJCycyleScrollViewDemoUITests.m */; };
+		38D41CDF1C9A707300DA163E /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38D41CDC1C9A707300DA163E /* 1.jpg */; };
+		38D41CE01C9A707300DA163E /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38D41CDD1C9A707300DA163E /* 2.jpg */; };
+		38D41CE11C9A707300DA163E /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38D41CDE1C9A707300DA163E /* 3.jpg */; };
+		38D41CE31C9A70E100DA163E /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 38D41CE21C9A70E100DA163E /* placeholder.png */; };
+		38D41CEA1C9A763F00DA163E /* ZJCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D41CE51C9A763F00DA163E /* ZJCycleScrollView.m */; };
+		38D41CEB1C9A763F00DA163E /* ZJImageDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D41CE71C9A763F00DA163E /* ZJImageDownloadManager.m */; };
+		38D41CEC1C9A763F00DA163E /* ZJScrollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D41CE91C9A763F00DA163E /* ZJScrollCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,16 @@
 		38D41CC01C9A63EA00DA163E /* ZJCycyleScrollViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJCycyleScrollViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D41CC41C9A63EA00DA163E /* ZJCycyleScrollViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJCycyleScrollViewDemoUITests.m; sourceTree = "<group>"; };
 		38D41CC61C9A63EA00DA163E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38D41CDC1C9A707300DA163E /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		38D41CDD1C9A707300DA163E /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		38D41CDE1C9A707300DA163E /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		38D41CE21C9A70E100DA163E /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		38D41CE41C9A763F00DA163E /* ZJCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCycleScrollView.h; sourceTree = "<group>"; };
+		38D41CE51C9A763F00DA163E /* ZJCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCycleScrollView.m; sourceTree = "<group>"; };
+		38D41CE61C9A763F00DA163E /* ZJImageDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJImageDownloadManager.h; sourceTree = "<group>"; };
+		38D41CE71C9A763F00DA163E /* ZJImageDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJImageDownloadManager.m; sourceTree = "<group>"; };
+		38D41CE81C9A763F00DA163E /* ZJScrollCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJScrollCell.h; sourceTree = "<group>"; };
+		38D41CE91C9A763F00DA163E /* ZJScrollCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJScrollCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +118,15 @@
 		38D41C9E1C9A63EA00DA163E /* ZJCycyleScrollViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				38D41CE21C9A70E100DA163E /* placeholder.png */,
+				38D41CDC1C9A707300DA163E /* 1.jpg */,
+				38D41CDD1C9A707300DA163E /* 2.jpg */,
+				38D41CDE1C9A707300DA163E /* 3.jpg */,
 				38D41CA21C9A63EA00DA163E /* AppDelegate.h */,
 				38D41CA31C9A63EA00DA163E /* AppDelegate.m */,
 				38D41CA51C9A63EA00DA163E /* ViewController.h */,
 				38D41CA61C9A63EA00DA163E /* ViewController.m */,
+				38D41CD21C9A63FF00DA163E /* ZJCycleScrollView */,
 				38D41CA81C9A63EA00DA163E /* Main.storyboard */,
 				38D41CAB1C9A63EA00DA163E /* Assets.xcassets */,
 				38D41CAD1C9A63EA00DA163E /* LaunchScreen.storyboard */,
@@ -138,6 +160,19 @@
 				38D41CC61C9A63EA00DA163E /* Info.plist */,
 			);
 			path = ZJCycyleScrollViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		38D41CD21C9A63FF00DA163E /* ZJCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				38D41CE41C9A763F00DA163E /* ZJCycleScrollView.h */,
+				38D41CE51C9A763F00DA163E /* ZJCycleScrollView.m */,
+				38D41CE61C9A763F00DA163E /* ZJImageDownloadManager.h */,
+				38D41CE71C9A763F00DA163E /* ZJImageDownloadManager.m */,
+				38D41CE81C9A763F00DA163E /* ZJScrollCell.h */,
+				38D41CE91C9A763F00DA163E /* ZJScrollCell.m */,
+			);
+			path = ZJCycleScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +279,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				38D41CAF1C9A63EA00DA163E /* LaunchScreen.storyboard in Resources */,
+				38D41CDF1C9A707300DA163E /* 1.jpg in Resources */,
+				38D41CE01C9A707300DA163E /* 2.jpg in Resources */,
+				38D41CE11C9A707300DA163E /* 3.jpg in Resources */,
+				38D41CE31C9A70E100DA163E /* placeholder.png in Resources */,
 				38D41CAC1C9A63EA00DA163E /* Assets.xcassets in Resources */,
 				38D41CAA1C9A63EA00DA163E /* Main.storyboard in Resources */,
 			);
@@ -270,8 +309,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38D41CEA1C9A763F00DA163E /* ZJCycleScrollView.m in Sources */,
 				38D41CA71C9A63EA00DA163E /* ViewController.m in Sources */,
+				38D41CEC1C9A763F00DA163E /* ZJScrollCell.m in Sources */,
 				38D41CA41C9A63EA00DA163E /* AppDelegate.m in Sources */,
+				38D41CEB1C9A763F00DA163E /* ZJImageDownloadManager.m in Sources */,
 				38D41CA11C9A63EA00DA163E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +538,7 @@
 				38D41CCB1C9A63EA00DA163E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38D41CCC1C9A63EA00DA163E /* Build configuration list for PBXNativeTarget "ZJCycyleScrollViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +547,7 @@
 				38D41CCE1C9A63EA00DA163E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38D41CCF1C9A63EA00DA163E /* Build configuration list for PBXNativeTarget "ZJCycyleScrollViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +556,7 @@
 				38D41CD11C9A63EA00DA163E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
