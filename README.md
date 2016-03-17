@@ -11,6 +11,6 @@
     
    //回调代理
    -(void)scrollView:(ZJCycleScrollView *)scrollView didSelectItemAtIndex:(int)index
-{
-    NSLog(@"你点击了第%d个图片",index);
-}
+   {
+   NSLog(@"你点击了第%d个图片",index);
+   }
