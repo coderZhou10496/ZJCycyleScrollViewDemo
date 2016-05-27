@@ -47,6 +47,7 @@
     scrollView.showPageControl = YES;
     [self.view addSubview:scrollView];
     
+    
 }
 -(void)scrollView:(ZJCycleScrollView *)scrollView didSelectItemAtIndex:(int)index
 {

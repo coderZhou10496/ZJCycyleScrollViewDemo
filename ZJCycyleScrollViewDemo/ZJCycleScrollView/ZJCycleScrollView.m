@@ -97,9 +97,6 @@
         if(self.placeholderImage)
         {
             [mutableArray addObject:self.placeholderImage];
-            
-            
-            
         }
         else
         {
@@ -111,7 +108,10 @@
     
     [_urlStringGroup enumerateObjectsUsingBlock:^(NSString *urlString, NSUInteger idx, BOOL * _Nonnull stop) {
         [ZJImageDownloadManager loadImageWithUrlstringArray:urlString completionBlock:^(UIImage *image) {
-            [mutableArray setObject:image atIndexedSubscript:idx];
+            if(image)
+            {
+               [mutableArray setObject:image atIndexedSubscript:idx];
+            }
             [self.collectionView reloadData];
         }];
     }];
